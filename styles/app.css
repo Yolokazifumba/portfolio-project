@@ -1,0 +1,43 @@
+:root{
+    --primary-color:#5B585A;
+    --secondary-color:#c9bfc8;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+.intro-container{
+background-color: var(--secondary-color);
+padding: 40px ;
+}
+.introduction {
+  margin-left: 300px;
+  margin-top: 200px;
+}
+.start{
+    color: white;
+    background-color:#42088e;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+   font-family: "tektur", sans-serif;
+   padding: 10px 20px;
+  
+}
+
+h1 {
+  font-size:96px;
+  font-weight: bold;
+  font-family: "playfair Display", sans-serif;
+  
+}
+p{
+  font-size: 20px;
+  opacity: 0.8;
+  font-family: "Poppins" sans-serif;
+}
+h6{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    
+}
