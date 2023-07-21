@@ -1,6 +1,6 @@
 :root {
-  --primary-color: black;
-  --secondary-color: #c9bfc8;
+  --primary-color: #15c4d2;
+  --secondary-color: white;
   --primary-text: "playfair Display", sans-serif;
   --secondary-text: "Poppins" sans-serif;
 }
@@ -20,9 +20,9 @@
   margin-top: 100px;
 }
 .start {
-  color: white;
+  color: var(--secondary-color);
   background-image: url(../media/background.jpeg);
-  border: 2px solid #15c4d2;
+  border: 2px solid var(--primary-color);
   border-radius: 10px;
   font-size: 20px;
   margin-top: 30px;
@@ -34,7 +34,7 @@ h1 {
   font-size: 96px;
   font-weight: bold;
   font-family: var(--primary-text);
-  color: #15c4d2;
+  color: var(--primary-color);
 }
 
 h3,
@@ -42,15 +42,16 @@ h6,
 p {
   font-family: var(--secondary-text);
 }
-p {
+.introduction p {
   font-size: 20px;
   opacity: 0.8;
   line-height: 1.5;
-  color: white;
+  color: var(--secondary-color);
+ 
 }
 h6 {
   font-size: 30px;
-  color: white;
+  color: var(--secondary-color);
 }
 h3 {
   text-align: center;
@@ -92,10 +93,14 @@ img {
   margin-right: 100px;
 }
 
-.about content {
+.about-content {
   font-family: Space Mono, sans-serif;
   line-height: 2em;
   font-weight: 400;
+  margin-top: 150px;
+  color: var(--primary-color);
+  margin-left: 200px;
+  margin-right: 350px ;
 }
 @media (max-width: 800px) {
   h1 {
