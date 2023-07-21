@@ -1,16 +1,19 @@
 :root {
   --primary-color: black;
   --secondary-color: #c9bfc8;
-  --primary-text:"playfair Display", sans-serif;
-  --secondary-text:"Poppins" sans-serif;
+  --primary-text: "playfair Display", sans-serif;
+  --secondary-text: "Poppins" sans-serif;
 }
 
-body {
-  background-color: var(--primary-color);
+.navbar-brand {
+  margin-left: 70px;
+  margin-right: 850px;
 }
+
 .intro-container {
-  background-color: var(--secondary-color);
-  padding: 40px;
+  background-color: black;
+  padding: 120px 0 120px 0;
+  margin: 0 90px 0 90px;
 }
 .introduction {
   text-align: center;
@@ -18,7 +21,8 @@ body {
 }
 .start {
   color: white;
-  background-color: #42088e;
+  background-image: url(../media/background.jpeg);
+  border: 2px solid #15c4d2;
   border-radius: 10px;
   font-size: 20px;
   margin-top: 30px;
@@ -30,41 +34,43 @@ h1 {
   font-size: 96px;
   font-weight: bold;
   font-family: var(--primary-text);
+  color: #15c4d2;
 }
 
-h3,h6,p{
-    font-family: var(--secondary-text);
+h3,
+h6,
+p {
+  font-family: var(--secondary-text);
 }
 p {
   font-size: 20px;
   opacity: 0.8;
   line-height: 1.5;
-  
+  color: white;
 }
 h6 {
   font-size: 30px;
- 
+  color: white;
 }
-h3{
-    text-align: center;
-    color: rgb(238, 236, 239);
-    padding-bottom: 0;  
-    
-}
-
-hr{
-    background: var(--secondary-color);
-    padding: 0;
-    margin: auto;
-    display: block;
-    width: 90px;
-    height: 3px;  
+h3 {
+  text-align: center;
+  color: rgb(238, 236, 239);
+  padding-bottom: 0;
 }
 
-img{
-    border: transparent;
-    background-color: var(--secondary-color);
-    padding: 50px;
+hr {
+  background: var(--secondary-color);
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 90px;
+  height: 3px;
+}
+
+img {
+  border: transparent;
+  background-color: var(--secondary-color);
+  padding: 50px;
 }
 
 .view-project {
@@ -81,18 +87,23 @@ img{
   text-decoration: none;
 }
 
-.row{
-    margin-left: 100px;
-    margin-right: 100px;
+.row {
+  margin-left: 100px;
+  margin-right: 100px;
 }
-@media (max-width:800px) {
+
+.about content {
+  font-family: Space Mono, sans-serif;
+  line-height: 2em;
+  font-weight: 400;
+}
+@media (max-width: 800px) {
   h1 {
     font-size: 50px;
   }
 
-  .view-project{
+  .view-project {
     font-size: 15px;
     padding: 10px;
   }
-  
 }
