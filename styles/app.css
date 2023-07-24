@@ -13,7 +13,7 @@
 .intro-container {
   background-color: black;
   padding: 120px 0 120px 0;
-  margin: 0 90px 0 90px;
+  margin: 0 40px 0 40px;
 }
 .introduction {
   text-align: center;
@@ -47,13 +47,12 @@ p {
   opacity: 0.8;
   line-height: 1.5;
   color: var(--secondary-color);
- 
 }
 h6 {
   font-size: 30px;
   color: var(--secondary-color);
 }
-h3 {
+.projects {
   text-align: center;
   color: rgb(238, 236, 239);
   padding-bottom: 0;
@@ -74,34 +73,33 @@ img {
   padding: 50px;
 }
 
-.view-project {
-  background: var(--secondary-color);
-  color: #42088e;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: var(--secondary-text);
-  border-radius: 10px;
-  padding: 15px;
-  text-decoration: none;
-}
-.view-project:hover {
-  text-decoration: none;
-}
 
-.row {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.about-content {
+.about-container {
   font-family: Space Mono, sans-serif;
-  line-height: 2em;
+  line-height: 1.5em;
   font-weight: 400;
-  margin-top: 150px;
   color: var(--primary-color);
-  margin-left: 200px;
-  margin-right: 350px ;
+  text-align: justify;
+  margin: 150px 450px 0 200px;
+  font-size: 26px;
 }
+
+.left-line{
+  border-left: 4px solid white;
+ 
+}
+
+.certfication-container{
+  margin: 100px 200px 0 450px;
+  font-family: Space Mono, sans-serif;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: var(--primary-color);
+  text-align: justify;
+  font-size: 26px;
+}
+
+
 @media (max-width: 800px) {
   h1 {
     font-size: 50px;
