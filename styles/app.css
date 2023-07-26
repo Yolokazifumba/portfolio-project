@@ -5,22 +5,21 @@
   --secondary-text: "Poppins" sans-serif;
   --background-color: black;
 }
-
+body{
+  background-color: black;
+}
 .navbar-brand {
   margin-left: 70px;
   margin-right: 850px;
 }
 
-.intro-container {
-  background-color:var(--background-color);
-  padding: 120px 0 120px 0;
-  margin: 0 40px 0 40px;
-}
+
 
 .introduction {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 220px;
 }
+
 .start {
   color: var(--secondary-color);
   background-image: url(../media/background.jpeg);
@@ -33,10 +32,15 @@
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 90px;
   font-weight: bold;
   font-family: var(--primary-text);
-  color: var(--primary-color);
+  color: var(--primary-color); 
+}
+
+.content-container h1{
+margin-top: 160px;
+text-align: center;
 }
 
 h3,
@@ -56,56 +60,64 @@ h6 {
 }
 
 
-.about-background{
-  background-color: black;
-}
 
 .about-container {
   font-family: Space Mono, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
-  color: var(--primary-color);
-  margin: 150px 700px 0 150px;
+  color: var(--primary-color); 
+  margin: 150px 150px 0 150px;
   font-size: 26px;
   border: 5px solid white;
   border-radius: 30px;
-  padding: 20px; 
+  padding: 20px;
 }
 
-
-.certfication-container{
+.certfication-container {
   margin: 70px 150px 0 700px;
   font-family: Space Mono, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
-  color:black ;
-  background-color:var(--primary-color) ;
+  color: black;
+  background-color: var(--primary-color);
   font-size: 26px;
   border: 5px solid transparent;
   border-radius: 30px;
   padding: 20px;
 }
 
-
 .skills-container {
   margin: 70px 800px 0 150px;
-font-family: Space Mono, sans-serif;
+  font-family: Space Mono, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
-  color:black;
+  color: black;
   background-color: white;
   font-size: 26px;
   border: 5px solid transparent;
   border-radius: 30px;
   padding: 20px;
-  
 }
-li{
-  
-  text-align:left;
+li {
+  text-align: left;
 }
-.api{margin-right:64px;}
+.api {
+  margin-right: 64px;
+}
 
+a:hover{
+  text-decoration: none;
+}
+
+
+
+
+.image{
+margin:80px 300px 0 400px ;
+background-color: rgb(234, 246, 249); 
+padding-bottom: 50px;
+border-radius: 7px;
+}
 
 @media (max-width: 800px) {
   h1 {
