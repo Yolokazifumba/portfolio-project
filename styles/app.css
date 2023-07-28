@@ -4,21 +4,44 @@
   --primary-text: "playfair Display", sans-serif;
   --secondary-text: "Poppins" sans-serif;
   --background-color: black;
-  --bg-opacity:0.75;
+ 
 }
 body{
   background-color: black;
 }
-.navbar-brand {
-  margin-left: 70px;
-  margin-right: 850px;
+nav{
+  padding: 20px 0 0 0;
 }
 
+
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav ul{
+  margin-right: 150px;
+}
+nav .brand-name{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+nav a{
+  text-decoration: none;
+  color:black;
+}
+
+nav a:hover, nav li.active a{
+text-decoration: none;
+color: var(--primary-color);
+transition: all 100ms ease-in-out;
+}
 
 
 .introduction {
   text-align: center;
-  margin-top: 220px;
+  margin-top: 180px;
 }
 
 .start {
@@ -31,6 +54,11 @@ body{
   font-family: "tektur", sans-serif;
   padding: 10px 20px;
 }
+.start:hover{
+color: var(--primary-color);
+border-color: var(--secondary-color);
+transition: all 100ms ease-in-out;
+}
 
 h1 {
   font-size: 90px;
@@ -40,11 +68,13 @@ h1 {
 }
 
 .content-container h1{
-margin-top: 160px;
+margin-top: 80px;
 text-align: center;
 font-size: 70px;
 padding-bottom: 0;
 }
+
+
 
 h3,
 h6,
@@ -65,51 +95,37 @@ h6 {
 
 
 .about-container {
-  font-family: Space Mono, sans-serif;
+  font-family: poppins-extralight,poppins,sans-serif;
   line-height: 1.2em;
   font-weight: 400;
   color: var(--primary-color); 
-  margin: 150px 150px 0 150px;
-  font-size: 26px;
-  
-  
-  padding: 20px;
+  margin: 100px 150px 0 150px;
+  font-size: 20px; 
 }
 
 .certfication-container {
-  margin: 70px 150px 0 700px;
   font-family: Space Mono, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
-  color: black;
-  background-color: var(--primary-color);
-  font-size: 26px;
-  border: 5px solid transparent;
-  border-radius: 150px;
-  padding: 30px;
-  
+  color:var(--primary-color);
+  font-size: 20px;  
 }
 
 .skills-container {
-  margin: 0px 800px 0 150px;
   font-family: Space Mono, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
-  color: black;
-  background-color: white;
-  font-size: 26px;
-  border: 5px solid transparent;
-  border-radius: 150px;
-  padding: 30px;
-  
+  color: var(--primary-color);
+  font-size: 20px;  
 }
+
 li {
   text-align: left;
 }
-.api {
-  margin-right: 64px;
-}
 
+a{
+  color: var(--primary-color);
+}
 a:hover{
   text-decoration: none;
 }
@@ -128,13 +144,84 @@ opacity: 1;
   opacity: 0.5;
 }
 
-@media (max-width: 800px) {
+.contact-container{
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+}
+hr{
+  background-color: white;
+  border: 1px solid white;
+  margin: 40px 150px 70px 150px;
+  padding-bottom: 0;
+}
+
+nav{
+  padding: 20px 0 0 0;
+}
+
+
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav ul{
+  margin-right: 150px;
+}
+nav .brand-name{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+nav a{
+  text-decoration: none;
+  color:black;
+}
+
+nav a:hover, nav li.active a{
+text-decoration: none;
+color: var(--primary-color);
+transition: all 100ms ease-in-out;
+}
+
+
+
+@media (max-width: 750px) {
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .view-project {
     font-size: 15px;
     padding: 10px;
+  }
+
+  .btn{
+  line-height: 1;
+  padding: 5px 10px;
+  font-size: 17px;
+  margin-top: 20px;
+
+  }
+
+  h6{
+   font-size: 20px; 
+  }
+  .introductio p{
+    font-size: 8px;
+    
+  }
+  nav ul{
+  margin-right:17px;
+}
+nav .brand-name{
+  margin-left: 17px;  
+}
+nav li{
+  font-size: 15px;}
+
+  .image{
+    width: 400px;
   }
 }
