@@ -66,14 +66,16 @@ nav li.active a {
 h1 {
   font-size: 90px;
   font-weight: bold;
-
   color: var(--primary-color);
 }
 
 h3,
 h6,
-h1 {
+h1,h4 {
   font-family: var(--secondary-text);
+}
+p, li{
+  font-family: var(--primary-text);
 }
 
 h6 {
