@@ -71,10 +71,12 @@ h1 {
 
 h3,
 h6,
-h1,h4 {
+h1,
+h4 {
   font-family: var(--secondary-text);
 }
-p, li{
+p,
+li {
   font-family: var(--primary-text);
 }
 
@@ -103,8 +105,9 @@ h4 {
 
 .bg-about-me {
   background-color: rgb(207, 201, 201);
-  padding: 40px 0;
+  padding: 40px 0px;
   margin-top: 50px;
+  margin-right: 0;
   left: 0;
   right: 0;
 }
@@ -169,7 +172,7 @@ hr {
   text-align: center;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 755px) {
   h1 {
     font-size: 40px;
   }
@@ -190,7 +193,7 @@ hr {
   .introduction p {
     font-size: 8px;
   }
-  
+
   nav ul {
     margin-right: 10px;
   }
@@ -224,11 +227,12 @@ hr {
   }
   .skills {
     font-size: 15px;
+    width: 50%;
   }
-  hr{
+  hr {
     display: none;
   }
-  .developer{
-    margin-top:70px;
+  .developer {
+    margin-top: 70px;
   }
 }
