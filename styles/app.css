@@ -174,7 +174,7 @@ hr {
     font-size: 40px;
   }
   .work-container h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .btn {
@@ -190,8 +190,9 @@ hr {
   .introduction p {
     font-size: 8px;
   }
+  
   nav ul {
-    margin-right: 17px;
+    margin-right: 10px;
   }
   nav .brand-name {
     margin-left: 17px;
@@ -223,5 +224,11 @@ hr {
   }
   .skills {
     font-size: 15px;
+  }
+  hr{
+    display: none;
+  }
+  .developer{
+    margin-top:70px;
   }
 }
